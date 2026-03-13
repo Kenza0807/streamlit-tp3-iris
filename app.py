@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="TP3 — House Prices ML",
+    page_title="TP3 — Déploiement de l'app IRIS",
     page_icon="🏠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -90,7 +90,7 @@ with st.sidebar:
             st.session_state.pop(key, None)
         st.rerun()
 
-st.title("🏠 TP3 — Application ML : House Prices")
+st.title("🏠 TP3 — Déploiement de l'app IRIS")
 st.markdown("""
 Bienvenue ! Utilisez le **menu de gauche** pour naviguer entre les pages :
 
